@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ca5b2f;
+    padding-top: 16px;
+    color: #fff;
+
+}
+
+header >.container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+section{
+    padding: 24px 0;
+}
+
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #ca5b2f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+
